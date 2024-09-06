@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alachua County Public Schools</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 70px;
+    }
+    button {
+      padding: 50px 60px;
+      font-size: 35px;
+      background-color: #BF2126;
+      color: white;
+      border: none;
+      cursor: help;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #000000;
+    }
+    #message {
+      margin-top: 200px;
+      font-size: 180px;
+      color: #333;
+    }
+    #header-gif {
+      width: 100%;
+      max-width: 600px; /* Limit the maximum width */
+      height: auto; /* Maintain the aspect ratio */
+      margin-bottom: 20px;
+    }
+    #dinoR-gif {
+      transform: scaleX(-1);
+  </style>
+  <script type="text/javascript">
+    function openOrenEZ() {
+      window.open('https://mail.google.com/mail/u/0/#inbox', '_blank');
+    }
+
+    function openGoodNews() {
+      window.open('https://mail.google.com/mail/u/0/d/AEoRXRS06-4MPv_guoiYarrBHloa0QX3DoPCflr6SX1EKqPiqd92/#inbox', '_blank');
+    }
+
+    function openBothInboxes() {
+      openGoodNews();
+      openOrenEZ();
+    }
+
+    function openPeachjar() {
+      window.open('https://portal.peachjar.com/dashboard', '_blank');
+    }
+
+function openGoogleCal() {
+      window.open('https://calendar.google.com/calendar/u/0/r', '_blank');
+    }
+
+    function openOneMillDrive() {
+      window.open('https://drive.google.com/drive/folders/1N2HxQXbb1gcOciPeFiOT6oXbd-zyH1_n', '_blank');
+    }
+
+    function openOneMillTracker() {
+      window.open('https://docs.google.com/spreadsheets/d/1IqJLWZ9GX1zOr-2AfWcl6ymiAm_NhFOk5YFPyaGxpK0/', '_blank');
+    }
+
+    function openOneMillSite() {
+      window.open('https://fl02219191.schoolwires.net/Page/3495', '_blank');
+    }
+
+    function openAllOneMill() {
+      openOneMillSite();
+      openOneMillTracker();
+      openOneMillDrive();
+    }
+  </script>
+</head>
+<body>
+   <img id="dinoL-gif" src="https://blog.archive.org/wp-content/uploads/2016/10/dinosaur.gif" alt="DinoL GIF">
+   <img id="header-gif" src="https://www.business2community.com/wp-content/uploads/2016/04/welcome.gif.gif" alt="Header GIF">
+   <img id="dinoR-gif" src="https://blog.archive.org/wp-content/uploads/2016/10/dinosaur.gif" alt="DinoR GIF">
+<br>
+   <button onclick="openBothInboxes()">Let 'er rip!</button>
+   <button onclick="openOrenEZ()">OrenEZ Inbox</button>
+   <button onclick="openGoodNews()">Good News Inbox</button>
+<br>
+   <button onclick="openPeachjar()">Peachjar</button>
+   <button onclick="openGoogleCal()">GoogleCal</button>
+<br>
+   <button onclick="openAllOneMill()">All Mill</button>
+   <button onclick="openOneMillDrive()">One Mill Google Drive</button>
+   <button onclick="openOneMillTracker()">One Mill Tracker</button>
+   <button onclick="openOneMillSite()">One Mill Website</button>
+  <p id="message"></p>
+
+</body>
+</html>
